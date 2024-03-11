@@ -5,7 +5,7 @@ import seaborn as sns
 import pickle
 import matplotlib.pyplot as plt
 
-model = load(r"C:\Users\Thivyan\CGS\Customer_Segmentation\custseg_pred_xgb.pkl")
+model = load(r"custseg_pred_xgb.pkl")
 
 country_mapping = {
     'United Kingdom': 1,
